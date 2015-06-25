@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* Will be used for all html files */
+.headerContainer {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto; }
+
+.logo {
+  padding-top: 5px;
+  width: 220px;
+  height: 67px; }
+
+header {
+  height: 72px;
+  background: #0e55a5;
+  border-bottom: 2px solid #0e55a5; }
+  header .navigation {
+    float: right;
+    padding-top: 8px; }
+    header .navigation li {
+      display: inline-block;
+      padding-left: 40px; }
+      header .navigation li a {
+        text-decoration: none;
+        font-family: regular Helvetica;
+        font-size: 14pt;
+        color: #f2f7fb; }
+        header .navigation li a:hover {
+          color: #c2d2e0; }
+      header .navigation li .selected {
+        color: #25aae1; }
+
+/* Code above will be used for all html files */
+.mainContainer {
+  border-bottom: 4px solid #0e55a5;
+  /*&:nth-last-child(1){
+  	height: 1185px;
+  }*/ }
+  .mainContainer .content {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto; }
+    .mainContainer .content .hero {
+      padding-top: 54px;
+      padding-left: 5px; }
+    .mainContainer .content p {
+      font-family: regular Gill Sanz MT;
+      font-size: 19px;
+      color: #003466; }
+    .mainContainer .content .extra_padding {
+      padding-top: 45px;
+      margin-bottom: 75px; }
+    .mainContainer .content .services {
+      height: 340px;
+      margin-top: 25px;
+      display: block; }
+      .mainContainer .content .services .software {
+        width: 350px;
+        float: right;
+        margin-top: 20px; }
+      .mainContainer .content .services .inf_img {
+        float: right; }
+      .mainContainer .content .services .infrastructure {
+        width: 350px;
+        margin-top: 60px;
+        float: left; }
+      .mainContainer .content .services .it_outsourcing {
+        float: right;
+        margin-top: 60px; }
+      .mainContainer .content .services h1 {
+        font-family: Gill Sanz MT;
+        font-size: 30px;
+        color: #003466; }
+      .mainContainer .content .services p {
+        width: 350px; }
+    .mainContainer .content h2 {
+      font-family: Gill Sanz MT;
+      color: #0e55a5;
+      font-size: 24px;
+      margin-left: 40px; }
+    .mainContainer .content .testimonials h2 {
+      float: right;
+      margin-right: 320px;
+      margin-top: -359px; }
+    .mainContainer .content .testimonials_box {
+      background: #c2d2e0;
+      float: right;
+      margin-right: 100px;
+      margin-top: -310px;
+      border-radius: 5px;
+      width: 362px;
+      height: 124px; }
+      .mainContainer .content .testimonials_box .testimonial_quotes {
+        font-family: Gill Sanz MT;
+        font-size: 22px;
+        padding: 30px 10px 10px 10px;
+        color: #003466;
+        text-align: center; }
+    .mainContainer .content .msgBox {
+      width: 338px;
+      height: 250px;
+      background: #c2d2e0;
+      border-radius: 5px;
+      margin-bottom: 60px; }
+      .mainContainer .content .msgBox .submit input {
+        padding: 7px;
+        border-radius: 4px;
+        background: #75baee;
+        float: right;
+        margin-top: -42px;
+        margin-right: 172px;
+        border: 1px solid #75baee; }
+      .mainContainer .content .msgBox label {
+        display: block;
+        font-family: Gill Sanz MT;
+        font-size: 18px;
+        padding-top: 15px;
+        padding-left: 40px; }
+      .mainContainer .content .msgBox input {
+        width: 180px;
+        font-family: Gill Sanz MT;
+        font-size: 16px;
+        float: right;
+        margin-top: -23px;
+        margin-right: 30px; }
+        .mainContainer .content .msgBox input .name {
+          margin-left: 1px; }
+        .mainContainer .content .msgBox input .email {
+          margin-left: 18px; }
+      .mainContainer .content .msgBox textarea {
+        width: 180px;
+        font-family: Gill Sanz MT;
+        font-size: 16px;
+        height: 60px;
+        float: right;
+        margin-top: -23px;
+        margin-right: 30px; }
+      .mainContainer .content .msgBox button {
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-left: 122px;
+        margin-top: 12px;
+        background: #25aae1;
+        border: 1px solid #25aae1; }
+
+footer {
+  height: 80px;
+  width: 100%;
+  background: #0e55a5; }
+  footer .footerContainer {
+    margin: 0 auto;
+    width: 960px;
+    padding-top: 30px; }
+    footer .footerContainer h3 {
+      font-family: Gill Sanz MT;
+      font-size: 16px;
+      color: #c2d2e0;
+      float: left;
+      margin-top: 0px; }
+    footer .footerContainer h4 {
+      font-family: Gill Sanz MT;
+      font-size: 16px;
+      float: right;
+      margin-top: -35px;
+      margin-right: -25px;
+      color: #c2d2e0; }
+    footer .footerContainer .social {
+      margin-left: 400px;
+      margin-top: -10px; }

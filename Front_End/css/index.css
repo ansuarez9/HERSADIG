@@ -1,0 +1,9 @@
+header {
+  height: 72px;
+  background: #0e55a5; }
+  header .navigation li {
+    display: inline-block; }
+    header .navigation li a {
+      text-decoration: none;
+      font-family: Helvetica;
+      font-size: 14pt; }

@@ -1,0 +1,263 @@
+$navy: #0e55a5;
+$white: #f2f7fb;
+$selected: #25aae1;
+$p_color: #003466;
+$gray: #c2d2e0;
+
+/* Will be used for all html files */
+.headerContainer{
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo{
+	padding-top:5px;
+	width:220px;
+	height:67px;
+}
+
+header{
+	height: 72px;
+	background: $navy;
+	border-bottom: 2px solid $navy;
+
+	.navigation {
+		float: right;
+		padding-top: 8px;
+
+		li{
+			display: inline-block;
+			padding-left: 40px;
+
+			a {
+			text-decoration: none;
+			font-family: regular Helvetica;
+			font-size: 14pt;
+			color: $white;
+
+				&:hover{
+				color: $gray;
+				}
+
+
+			}
+			.selected{
+					color: $selected;
+				}
+		}
+	}
+}
+/* Code above will be used for all html files */
+
+.mainContainer{
+	border-bottom: 4px solid $navy;
+	
+	/*&:nth-last-child(1){
+		height: 1185px;
+	}*/
+	.content{
+		height: 100%;
+		width: 960px;
+		margin: 0 auto;
+		
+
+		.hero{
+			padding-top: 54px;
+			padding-left:5px;
+		}
+
+		p{
+			font-family: regular Gill Sanz MT;
+			font-size: 19px;
+			color: $p_color;
+		}
+
+		.extra_padding{
+			padding-top:45px;
+			margin-bottom: 75px;
+		}
+
+		.services{
+			height: 340px;
+			margin-top: 25px;
+			display: block;
+			
+			.software{
+				width: 350px;
+				float: right;
+				margin-top: 20px;
+			}
+
+			.inf_img{
+				float: right;
+			}
+
+			.infrastructure{
+				width: 350px;
+				margin-top: 60px;
+				float:left;
+				h1{
+					
+				}
+			}
+			.outsourcing_img{
+				
+			}
+			.it_outsourcing{
+				float:right;
+				margin-top: 60px;
+				img{
+					
+				}
+			}
+			
+			h1{
+				font-family: Gill Sanz MT;
+				font-size: 30px;
+				color: $p_color;
+			}
+
+			p{
+				width: 350px;
+			}
+		}
+		h2{
+			font-family: Gill Sanz MT;
+			color: $navy;
+			font-size: 24px;
+			margin-left:40px;
+		}
+		.testimonials h2{
+			float:right;
+			margin-right:320px;
+			margin-top:-359px;
+		}
+		.testimonials_box{
+			background: $gray;
+			float:right;
+			margin-right: 100px;
+			margin-top:-310px;
+			border-radius: 5px;
+			width: 362px;
+			height: 124px;
+			
+			.testimonial_quotes{
+				font-family: Gill Sanz MT;
+				font-size: 22px;
+				padding: 30px 10px 10px 10px;
+				color:$p_color;
+				text-align:center;
+			}
+		}
+		.msgBox{
+			width: 338px;
+			height: 250px;
+			background: $gray;
+			border-radius: 5px;
+			margin-bottom:60px;
+			
+			.submit input{
+				padding:7px;
+				border-radius: 4px;
+				background: #75baee;
+				float: right;
+				margin-top:-42px;
+				margin-right: 172px;
+				border: 1px solid #75baee;
+			}
+			
+			label{
+				display: block;
+				font-family: Gill Sanz MT;
+				font-size: 18px;
+				padding-top: 15px;
+				padding-left: 40px;
+			}
+				
+			input{
+					width: 180px;
+					font-family: Gill Sanz MT;
+					font-size:16px;
+					float:right;
+					margin-top: -23px;
+					margin-right: 30px;
+
+				.name{
+					margin-left: 1px;
+				}
+
+				.email{
+					margin-left: 18px;
+				}
+			}
+			.message{
+					
+				}
+			textarea{
+				width:180px;
+				font-family: Gill Sanz MT;
+				font-size:16px;
+				height:60px;
+				float: right;
+				margin-top: -23px;
+				margin-right:30px;
+			}
+			button{
+				padding:6px 15px;
+				border-radius:4px;
+				margin-left:122px;
+				margin-top:12px;
+				background: $selected;
+				border: 1px solid $selected;
+			}
+		}
+	}
+}
+footer{
+	height: 80px;
+	width:100%;
+	background: $navy;
+	.footerContainer{
+		margin: 0 auto;
+		width: 960px;
+		padding-top:30px;
+		
+		h3{
+			font-family: Gill Sanz MT;
+			font-size: 16px;
+			color: $gray;
+			float:left;
+			margin-top: 0px;
+		}
+		h4{
+			font-family: Gill Sanz MT;
+			font-size: 16px;
+			float:right;
+			margin-top:-35px;
+			margin-right:-25px;
+			color:$gray;
+		}
+		.social{
+			margin-left:400px;
+			margin-top:-10px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
